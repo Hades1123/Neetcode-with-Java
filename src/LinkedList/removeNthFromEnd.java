@@ -3,7 +3,7 @@ package LinkedList;
 public class removeNthFromEnd {
 }
 
-class Solution {
+class Solution5 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int sizeList = 0;
         ListNode cur = head;
