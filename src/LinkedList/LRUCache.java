@@ -15,6 +15,7 @@ class Node{
         this.next = null;
     }
 }
+
 public class LRUCache {
     private int cap;
     private HashMap<Integer, Node> cache;
