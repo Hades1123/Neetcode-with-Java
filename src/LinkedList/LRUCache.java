@@ -17,10 +17,10 @@ class Node{
 }
 
 public class LRUCache {
-    private int cap;
-    private HashMap<Integer, Node> cache;
-    private Node head;
-    private Node tail;
+    private final int cap;
+    private final HashMap<Integer, Node> cache;
+    private final Node head;
+    private final Node tail;
 
     public LRUCache(int capacity) {
         this.cap = capacity;
